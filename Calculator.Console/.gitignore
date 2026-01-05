@@ -1,2 +1,3 @@
-bin/
-obj/
+Calculator.Console/bin/
+Calculator.Console/obj/
+.DS_Store
