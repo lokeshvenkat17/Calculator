@@ -6,7 +6,9 @@ class Program
     {
         while (true)
         {
-            Console.WriteLine("Simple Calculator");
+            Console.WriteLine("What's your name: ");
+            string? userName = Console.ReadLine();
+            Console.WriteLine($"Welcome to Calculator, {userName}");
             Console.WriteLine("1. Add");
             Console.WriteLine("2. Subtract");
             Console.WriteLine("3. Multiply");
